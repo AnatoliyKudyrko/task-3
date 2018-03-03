@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+table {
+	max-width: 500px;
+	width: 100%;
+	margin: 100px auto;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+td {
+	border: 1px solid #000;
+}
+
+td:nth-child(even) {
+	background-color: #c8e590;
+}
+
+td:nth-child(odd) {
+	background-color: #eaffc1;
+}
+
+.main-cell {
+	text-align: center;
+	color: white;
+	background-color: #658725;
+	padding: 1px;
+	text-transform: uppercase;
+}
