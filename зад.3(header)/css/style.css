@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: url("../image/body-bg.png");
+	background-size: contain;
+	width: 100%;
+	height: 180px;
+	position: relative;
+}
+
+.baner {
+	position: absolute;
+	background: url("../image/utp.png");
+	background-repeat: no-repeat;
+	width: 70%;
+	height: 140px;
+	top: 40px;
+	left: 15%;
+}
+
+nav {
+	text-align: left;
+	top: 120px;
+	width: 69.7%;
+	left: 15%;
+	position: absolute;
+	border-bottom: 2px solid #B4CDCD;
+}
+
+li {
+	display: inline-block;
+	background: #D1EEEE;
+	font-size: 20px;
+	padding: 8px;
+}
+
+ul {
+	margin-bottom: 0;
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+a {  
+	text-decoration: none;
+	color: black;
+}
+
+.active {
+	background: #B4CDCD;
+}
+
+li:active {
+	background: #B4CDCD;
+}
+
+li:hover {
+	filter: contrast(90%);
+}
